@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DESAFIO_1
 {
-    public partial class frmLogin : Form
+    public partial class Login : Form
     {
-        public frmLogin()
+        public Login()
         {
             InitializeComponent();
         }

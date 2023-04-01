@@ -1,6 +1,6 @@
 ﻿namespace DESAFIO_1
 {
-    partial class frmLogin
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.

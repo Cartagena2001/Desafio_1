@@ -43,7 +43,7 @@ namespace DESAFIO_1
 
         private void label5_Click(object sender, EventArgs e)
         {
-            frmLogin login = new frmLogin();
+            Login login = new Login();
             login.Visible = true;
             this.Visible = false;
         }

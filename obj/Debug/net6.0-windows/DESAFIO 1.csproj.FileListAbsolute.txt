@@ -18,7 +18,6 @@ E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de
 E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
 E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO 1.csproj.AssemblyReference.cache
 E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO_1.Registro.resources
-E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO_1.frmLogin.resources
 E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO_1.Home.resources
 E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO_1.Properties.Resources.resources
 E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO 1.csproj.GenerateResource.cache
@@ -32,3 +31,4 @@ E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de
 E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO 1.pdb
 E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO 1.genruntimeconfig.cache
 E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\ref\DESAFIO 1.dll
+E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO_1.Login.resources
