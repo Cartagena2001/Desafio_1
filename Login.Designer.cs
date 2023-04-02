@@ -135,7 +135,7 @@
             this.label3.Text = "¿No tienes cuenta? Registrate Aqui!";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // frmLogin
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -150,7 +150,7 @@
             this.Controls.Add(this.Usuairo);
             this.Controls.Add(this.label2);
             this.MaximizeBox = false;
-            this.Name = "frmLogin";
+            this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.panel1.ResumeLayout(false);
