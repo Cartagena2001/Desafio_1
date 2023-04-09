@@ -192,5 +192,33 @@ namespace DESAFIO_1
 
             ActualizarTablaFiltrada(pacientesCoincidentes);
         }
+
+        private void pacienteRiesgo(object sender, EventArgs e)
+        {
+            pacienteRiesgo ptRiesgo = new pacienteRiesgo();
+            Home hm = new Home();
+            ptRiesgo.Location = new Point(0, 0);
+            ptRiesgo.Size = new Size(500, 500);
+            ptRiesgo.BackColor = Color.White;
+            this.Controls.Add(ptRiesgo);
+
+            // Agregar cualquier control o formulario dentro del panel secundario
+
+            // Mostrar el panel secundario
+            ptRiesgo.Visible = true;
+        }
+
+        private void limpiarForm_click(object sender, EventArgs e)
+        {
+            txtNombre.Clear();
+            cmbGenero.SelectedIndex = -1;
+            cmbTipoSangre.SelectedIndex = -1;
+            cmbPresionArterial.SelectedIndex = -1;
+        }
+
+        private void porcentajes_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -42,6 +42,8 @@
             label4 = new Label();
             Buscar = new Button();
             button2 = new Button();
+            button4 = new Button();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)tbPacientes).BeginInit();
             SuspendLayout();
             // 
@@ -68,7 +70,7 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(27, 413);
+            button3.Location = new Point(27, 436);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(109, 52);
@@ -84,7 +86,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(142, 413);
+            button1.Location = new Point(142, 436);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(107, 52);
@@ -187,7 +189,7 @@
             Buscar.FlatStyle = FlatStyle.Flat;
             Buscar.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             Buscar.ForeColor = Color.White;
-            Buscar.Location = new Point(255, 413);
+            Buscar.Location = new Point(255, 436);
             Buscar.Margin = new Padding(3, 4, 3, 4);
             Buscar.Name = "Buscar";
             Buscar.Size = new Size(107, 52);
@@ -203,13 +205,46 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(27, 513);
+            button2.Location = new Point(368, 436);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(208, 52);
+            button2.Size = new Size(186, 52);
             button2.TabIndex = 23;
-            button2.Text = "Pacientes en riesgo";
+            button2.Text = "Limpiar Formulario";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += limpiarForm_click;
+            // 
+            // button4
+            // 
+            button4.BackColor = SystemColors.Highlight;
+            button4.Cursor = Cursors.Hand;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(27, 528);
+            button4.Margin = new Padding(3, 4, 3, 4);
+            button4.Name = "button4";
+            button4.Size = new Size(109, 52);
+            button4.TabIndex = 24;
+            button4.Text = "Riesgos";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += pacienteRiesgo;
+            // 
+            // button5
+            // 
+            button5.BackColor = SystemColors.Highlight;
+            button5.Cursor = Cursors.Hand;
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.ForeColor = Color.White;
+            button5.Location = new Point(142, 528);
+            button5.Margin = new Padding(3, 4, 3, 4);
+            button5.Name = "button5";
+            button5.Size = new Size(127, 52);
+            button5.TabIndex = 25;
+            button5.Text = "Porcentajes";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += porcentajes_Click;
             // 
             // Home
             // 
@@ -217,6 +252,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Silver;
             ClientSize = new Size(993, 593);
+            Controls.Add(button5);
+            Controls.Add(button4);
             Controls.Add(button2);
             Controls.Add(Buscar);
             Controls.Add(label4);
@@ -257,5 +294,7 @@
         private Label label4;
         private Button Buscar;
         private Button button2;
+        private Button button4;
+        private Button button5;
     }
 }
