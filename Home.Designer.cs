@@ -28,68 +28,234 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtNombre = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnCerrar = new System.Windows.Forms.Button();
-            this.SuspendLayout();
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.AutoSize = true;
-            this.txtNombre.Font = new System.Drawing.Font("SF Pro Rounded", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNombre.Location = new System.Drawing.Point(127, 9);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(40, 15);
-            this.txtNombre.TabIndex = 0;
-            this.txtNombre.Text = "label1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SF Pro Rounded", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre del usuario:";
+            btnCerrar = new Button();
+            button3 = new Button();
+            button1 = new Button();
+            tbPacientes = new DataGridView();
+            txtNombre = new TextBox();
+            cmbGenero = new ComboBox();
+            cmbTipoSangre = new ComboBox();
+            cmbPresionArterial = new ComboBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            Buscar = new Button();
+            button2 = new Button();
+            ((System.ComponentModel.ISupportInitialize)tbPacientes).BeginInit();
+            SuspendLayout();
             // 
             // btnCerrar
             // 
-            this.btnCerrar.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.Font = new System.Drawing.Font("SF Pro Rounded", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCerrar.ForeColor = System.Drawing.Color.White;
-            this.btnCerrar.Location = new System.Drawing.Point(24, 394);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(158, 39);
-            this.btnCerrar.TabIndex = 7;
-            this.btnCerrar.Text = "Cerrar Programa";
-            this.btnCerrar.UseVisualStyleBackColor = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            btnCerrar.BackColor = SystemColors.Highlight;
+            btnCerrar.Cursor = Cursors.Hand;
+            btnCerrar.FlatStyle = FlatStyle.Flat;
+            btnCerrar.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCerrar.ForeColor = Color.White;
+            btnCerrar.Location = new Point(800, 528);
+            btnCerrar.Margin = new Padding(3, 4, 3, 4);
+            btnCerrar.Name = "btnCerrar";
+            btnCerrar.Size = new Size(181, 52);
+            btnCerrar.TabIndex = 7;
+            btnCerrar.Text = "Cerrar Programa";
+            btnCerrar.UseVisualStyleBackColor = false;
+            btnCerrar.Click += btnCerrar_Click;
+            // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.Highlight;
+            button3.Cursor = Cursors.Hand;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(27, 413);
+            button3.Margin = new Padding(3, 4, 3, 4);
+            button3.Name = "button3";
+            button3.Size = new Size(109, 52);
+            button3.TabIndex = 10;
+            button3.Text = "Agregar";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += agregarPaciente;
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.Highlight;
+            button1.Cursor = Cursors.Hand;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(142, 413);
+            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Name = "button1";
+            button1.Size = new Size(107, 52);
+            button1.TabIndex = 11;
+            button1.Text = "Eliminar";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += eliminarPaciente;
+            // 
+            // tbPacientes
+            // 
+            tbPacientes.BackgroundColor = SystemColors.ActiveCaption;
+            tbPacientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            tbPacientes.Location = new Point(330, 48);
+            tbPacientes.Name = "tbPacientes";
+            tbPacientes.RowHeadersWidth = 51;
+            tbPacientes.RowTemplate.Height = 29;
+            tbPacientes.Size = new Size(569, 341);
+            tbPacientes.TabIndex = 6;
+            tbPacientes.CellClick += tbPacientes_CellClick;
+            tbPacientes.CellFormatting += tbPacientes_CellFormatting;
+            // 
+            // txtNombre
+            // 
+            txtNombre.Location = new Point(27, 82);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(151, 27);
+            txtNombre.TabIndex = 14;
+            // 
+            // cmbGenero
+            // 
+            cmbGenero.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbGenero.FormattingEnabled = true;
+            cmbGenero.Items.AddRange(new object[] { "Masculino", "Femenino" });
+            cmbGenero.Location = new Point(27, 146);
+            cmbGenero.Name = "cmbGenero";
+            cmbGenero.Size = new Size(151, 28);
+            cmbGenero.TabIndex = 15;
+            // 
+            // cmbTipoSangre
+            // 
+            cmbTipoSangre.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbTipoSangre.FormattingEnabled = true;
+            cmbTipoSangre.Items.AddRange(new object[] { "A", "B ", "AB", "O" });
+            cmbTipoSangre.Location = new Point(27, 221);
+            cmbTipoSangre.Name = "cmbTipoSangre";
+            cmbTipoSangre.Size = new Size(151, 28);
+            cmbTipoSangre.TabIndex = 16;
+            // 
+            // cmbPresionArterial
+            // 
+            cmbPresionArterial.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbPresionArterial.FormattingEnabled = true;
+            cmbPresionArterial.Items.AddRange(new object[] { "Alta", "Media ", "Baja\t" });
+            cmbPresionArterial.Location = new Point(27, 303);
+            cmbPresionArterial.Name = "cmbPresionArterial";
+            cmbPresionArterial.Size = new Size(151, 28);
+            cmbPresionArterial.TabIndex = 17;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(27, 48);
+            label1.Name = "label1";
+            label1.Size = new Size(215, 20);
+            label1.TabIndex = 18;
+            label1.Text = "Ingrese el nombre del paciente";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(27, 112);
+            label2.Name = "label2";
+            label2.Size = new Size(208, 20);
+            label2.TabIndex = 19;
+            label2.Text = "Ingrese el genero del Paciente";
+            label2.Click += label2_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(27, 189);
+            label3.Name = "label3";
+            label3.Size = new Size(257, 20);
+            label3.TabIndex = 20;
+            label3.Text = "Ingrese el tipo de sangre del Paciente";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(27, 263);
+            label4.Name = "label4";
+            label4.Size = new Size(230, 20);
+            label4.TabIndex = 21;
+            label4.Text = "Ingrese el tipo de Presion Arterial";
+            // 
+            // Buscar
+            // 
+            Buscar.BackColor = SystemColors.Highlight;
+            Buscar.Cursor = Cursors.Hand;
+            Buscar.FlatStyle = FlatStyle.Flat;
+            Buscar.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            Buscar.ForeColor = Color.White;
+            Buscar.Location = new Point(255, 413);
+            Buscar.Margin = new Padding(3, 4, 3, 4);
+            Buscar.Name = "Buscar";
+            Buscar.Size = new Size(107, 52);
+            Buscar.TabIndex = 22;
+            Buscar.Text = "Buscar";
+            Buscar.UseVisualStyleBackColor = false;
+            Buscar.Click += txtBusqueda_Click;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.Highlight;
+            button2.Cursor = Cursors.Hand;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(27, 513);
+            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Name = "button2";
+            button2.Size = new Size(208, 52);
+            button2.TabIndex = 23;
+            button2.Text = "Pacientes en riesgo";
+            button2.UseVisualStyleBackColor = false;
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(869, 445);
-            this.Controls.Add(this.btnCerrar);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtNombre);
-            this.MaximizeBox = false;
-            this.Name = "Home";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Home";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Silver;
+            ClientSize = new Size(993, 593);
+            Controls.Add(button2);
+            Controls.Add(Buscar);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(cmbPresionArterial);
+            Controls.Add(cmbTipoSangre);
+            Controls.Add(cmbGenero);
+            Controls.Add(txtNombre);
+            Controls.Add(tbPacientes);
+            Controls.Add(button1);
+            Controls.Add(button3);
+            Controls.Add(btnCerrar);
+            Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
+            Name = "Home";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Home";
+            Load += Form1_load;
+            ((System.ComponentModel.ISupportInitialize)tbPacientes).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-
-        private Label txtNombre;
-        private Label label1;
         private Button btnCerrar;
+        private Button button3;
+        private Button button1;
+        private DataGridView tbPacientes;
+        private TextBox txtNombre;
+        private ComboBox cmbGenero;
+        private ComboBox cmbTipoSangre;
+        private ComboBox cmbPresionArterial;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Button Buscar;
+        private Button button2;
     }
 }

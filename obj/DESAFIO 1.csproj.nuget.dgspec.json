@@ -1,31 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "E:\\salva\\Escritorio\\UDB MATERIAS\\1 CICLO 1-2023\\Programación con Estructuras de Datos\\UNIDAD 3\\DESAFIO 1\\DESAFIO 1.csproj": {}
+    "C:\\Users\\cesar\\Source\\Repos\\Desafio_1\\DESAFIO 1.csproj": {}
   },
   "projects": {
-    "E:\\salva\\Escritorio\\UDB MATERIAS\\1 CICLO 1-2023\\Programación con Estructuras de Datos\\UNIDAD 3\\DESAFIO 1\\DESAFIO 1.csproj": {
+    "C:\\Users\\cesar\\Source\\Repos\\Desafio_1\\DESAFIO 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\salva\\Escritorio\\UDB MATERIAS\\1 CICLO 1-2023\\Programación con Estructuras de Datos\\UNIDAD 3\\DESAFIO 1\\DESAFIO 1.csproj",
+        "projectUniqueName": "C:\\Users\\cesar\\Source\\Repos\\Desafio_1\\DESAFIO 1.csproj",
         "projectName": "DESAFIO 1",
-        "projectPath": "E:\\salva\\Escritorio\\UDB MATERIAS\\1 CICLO 1-2023\\Programación con Estructuras de Datos\\UNIDAD 3\\DESAFIO 1\\DESAFIO 1.csproj",
-        "packagesPath": "C:\\Users\\Cartagena\\.nuget\\packages\\",
-        "outputPath": "E:\\salva\\Escritorio\\UDB MATERIAS\\1 CICLO 1-2023\\Programación con Estructuras de Datos\\UNIDAD 3\\DESAFIO 1\\obj\\",
+        "projectPath": "C:\\Users\\cesar\\Source\\Repos\\Desafio_1\\DESAFIO 1.csproj",
+        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cesar\\Source\\Repos\\Desafio_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cartagena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +60,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
