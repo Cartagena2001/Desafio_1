@@ -1,7 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="card1825.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="card2640.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="card4150.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="card50.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="pacienteRiesgo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="porcentaje.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Registro.cs">

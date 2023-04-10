@@ -129,7 +129,7 @@
             // 
             cmbTipoSangre.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbTipoSangre.FormattingEnabled = true;
-            cmbTipoSangre.Items.AddRange(new object[] { "A", "B ", "AB", "O" });
+            cmbTipoSangre.Items.AddRange(new object[] { "A", "B ", "AB", "O", "-A", "-B", "-AB", "-O" });
             cmbTipoSangre.Location = new Point(27, 221);
             cmbTipoSangre.Name = "cmbTipoSangre";
             cmbTipoSangre.Size = new Size(151, 28);

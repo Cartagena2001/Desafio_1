@@ -195,17 +195,10 @@ namespace DESAFIO_1
 
         private void pacienteRiesgo(object sender, EventArgs e)
         {
-            pacienteRiesgo ptRiesgo = new pacienteRiesgo();
-            Home hm = new Home();
-            ptRiesgo.Location = new Point(0, 0);
-            ptRiesgo.Size = new Size(500, 500);
-            ptRiesgo.BackColor = Color.White;
-            this.Controls.Add(ptRiesgo);
+            pacienteRiesgo pcRiesgo = new pacienteRiesgo();
 
-            // Agregar cualquier control o formulario dentro del panel secundario
+            pcRiesgo.Show();
 
-            // Mostrar el panel secundario
-            ptRiesgo.Visible = true;
         }
 
         private void limpiarForm_click(object sender, EventArgs e)
@@ -218,7 +211,32 @@ namespace DESAFIO_1
 
         private void porcentajes_Click(object sender, EventArgs e)
         {
+            porcentaje porcentaje = new porcentaje();
 
+            porcentaje.Show();
         }
+
+        //codigo para actualizar que deberia ir dentro de un boton
+        // Obtener el nombre del paciente a actualizar y sus nuevos datos desde los controles del formulario
+        //string nombre = txtNombre.Text;
+        //string tipoSangre = cmbTipoSangre.Text;
+        //string genero = cmbGenero.SelectedItem.ToString();
+        //string presionArterial = cmbPresionArterial.ToString();
+
+        //// Crear un objeto Paciente con los datos actualizados
+        //Paciente pacienteActualizado = new Paciente(nombre, genero, tipoSangre, presionArterial);
+
+        //// Actualizar el paciente en el árbol
+        //bool actualizado = miArbol.ActualizarPaciente(nombre, pacienteActualizado);
+
+        //    // Mostrar un mensaje indicando si se pudo actualizar el paciente o no
+        //    if (actualizado)
+        //    {
+        //        MessageBox.Show("Paciente actualizado correctamente.");
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("No se encontró ningún paciente con el nombre especificado.");
+        //    }
     }
 }

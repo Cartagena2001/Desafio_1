@@ -178,5 +178,34 @@ namespace DESAFIO_1
             return eliminado;
         }
 
+        //public bool ActualizarPaciente(string nombre, Paciente pacienteActualizado)
+        //{
+        //    Nodo nodoPadre = null;
+        //    Nodo nodoHijo = this.raiz;
+        //    bool actualizado = false;
+
+        //    while (nodoHijo != null)
+        //    {
+        //        if (nodoHijo.Pacientes.Any(p => p.Nombre == nombre))
+        //        {
+        //            // Encontramos el nodo que contiene al paciente a actualizar
+        //            Paciente paciente = nodoHijo.Pacientes.Single(p => p.Nombre == nombre);
+        //            paciente.TipoSangre = pacienteActualizado.TipoSangre;
+        //            paciente.Genero = pacienteActualizado.Genero;
+        //            paciente.PresionArterial = pacienteActualizado.PresionArterial;
+        //            actualizado = true;
+        //            break;
+        //        }
+        //        else
+        //        {
+        //            nodoPadre = nodoHijo;
+        //            nodoHijo = nodoHijo.ObtenerNodoHijo(nombre);
+        //        }
+        //    }
+
+        //    return actualizado;
+        //}
+
+
     }
 }
