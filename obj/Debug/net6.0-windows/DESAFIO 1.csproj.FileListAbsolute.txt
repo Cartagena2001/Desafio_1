@@ -68,7 +68,3 @@ C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\DESAFIO 1.genrunt
 C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\ref\DESAFIO 1.dll
 C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\DESAFIO_1.pacienteRiesgo.resources
 C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\DESAFIO_1.porcentaje.resources
-C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\DESAFIO_1.card50.resources
-C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\DESAFIO_1.card1825.resources
-C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\DESAFIO_1.card2640.resources
-C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\DESAFIO_1.card4150.resources

@@ -28,11 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pacienteRiesgo));
             mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
-            button3 = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            button4 = new Button();
+            richTextBox1 = new RichTextBox();
+            richTextBox2 = new RichTextBox();
+            richTextBox3 = new RichTextBox();
+            richTextBox4 = new RichTextBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
             SuspendLayout();
             // 
             // mySqlCommand1
@@ -42,90 +47,103 @@
             mySqlCommand1.EnableCaching = false;
             mySqlCommand1.Transaction = null;
             // 
-            // button3
+            // richTextBox1
             // 
-            button3.BackColor = SystemColors.Highlight;
-            button3.Cursor = Cursors.Hand;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.ForeColor = Color.White;
-            button3.Location = new Point(228, 103);
-            button3.Margin = new Padding(3, 4, 3, 4);
-            button3.Name = "button3";
-            button3.Size = new Size(142, 52);
-            button3.TabIndex = 11;
-            button3.Text = "18 a 25 años";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            richTextBox1.Location = new Point(23, 73);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(193, 418);
+            richTextBox1.TabIndex = 15;
+            richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
-            // button1
+            // richTextBox2
             // 
-            button1.BackColor = SystemColors.Highlight;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(534, 103);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(142, 52);
-            button1.TabIndex = 12;
-            button1.Text = "26 a 40 años";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            richTextBox2.Location = new Point(252, 73);
+            richTextBox2.Name = "richTextBox2";
+            richTextBox2.Size = new Size(193, 418);
+            richTextBox2.TabIndex = 16;
+            richTextBox2.Text = resources.GetString("richTextBox2.Text");
             // 
-            // button2
+            // richTextBox3
             // 
-            button2.BackColor = SystemColors.Highlight;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(228, 234);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(142, 52);
-            button2.TabIndex = 13;
-            button2.Text = "41 a 50 años";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            richTextBox3.Location = new Point(480, 73);
+            richTextBox3.Name = "richTextBox3";
+            richTextBox3.Size = new Size(193, 418);
+            richTextBox3.TabIndex = 17;
+            richTextBox3.Text = resources.GetString("richTextBox3.Text");
             // 
-            // button4
+            // richTextBox4
             // 
-            button4.BackColor = SystemColors.Highlight;
-            button4.Cursor = Cursors.Hand;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.ForeColor = Color.White;
-            button4.Location = new Point(534, 234);
-            button4.Margin = new Padding(3, 4, 3, 4);
-            button4.Name = "button4";
-            button4.Size = new Size(142, 52);
-            button4.TabIndex = 14;
-            button4.Text = "50  años en adelante";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
+            richTextBox4.Location = new Point(714, 73);
+            richTextBox4.Name = "richTextBox4";
+            richTextBox4.Size = new Size(193, 418);
+            richTextBox4.TabIndex = 18;
+            richTextBox4.Text = resources.GetString("richTextBox4.Text");
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(23, 38);
+            label1.Name = "label1";
+            label1.Size = new Size(185, 20);
+            label1.TabIndex = 19;
+            label1.Text = "Pacientes entre 18-25 años";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(252, 38);
+            label2.Name = "label2";
+            label2.Size = new Size(185, 20);
+            label2.TabIndex = 20;
+            label2.Text = "Pacientes entre 26-40 años";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(480, 38);
+            label3.Name = "label3";
+            label3.Size = new Size(185, 20);
+            label3.TabIndex = 21;
+            label3.Text = "Pacientes entre 41-50 años";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(714, 38);
+            label4.Name = "label4";
+            label4.Size = new Size(197, 20);
+            label4.TabIndex = 22;
+            label4.Text = "Pacientes mayores a 50 años";
             // 
             // pacienteRiesgo
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(936, 528);
-            Controls.Add(button4);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(button3);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(richTextBox4);
+            Controls.Add(richTextBox3);
+            Controls.Add(richTextBox2);
+            Controls.Add(richTextBox1);
             Name = "pacienteRiesgo";
             Text = "pacienteRiesgo";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
-        private Button button3;
-        private Button button1;
-        private Button button2;
-        private Button button4;
+        private RichTextBox richTextBox1;
+        private RichTextBox richTextBox2;
+        private RichTextBox richTextBox3;
+        private RichTextBox richTextBox4;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
     }
 }

@@ -63,4 +63,75 @@
   <metadata name="mySqlCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Algunas enfermedades que pueden estar relacionadas con la hipertensión en este rango de edad son: 
+
+-Enfermedades renales.
+
+-Enfermedad de las glándulas suprarrenales.
+
+-Diabetes.
+
+-Enfermedad de la arteria renal.
+
+ Enfermedad tiroidea.</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Las enfermedades que pueden estar relacionadas con la hipertensión en este rango de edad son: 
+
+-Enfermedad cardiovascular
+
+-Enfermedad renal crónica
+
+-Enfermedad de las arterias coronarias
+
+-Enfermedad cerebrovascular 
+
+-Enfermedad arterial periférica
+
+-Diabetes.
+
+-Obesidad
+
+-Dieta poco balanceada
+</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>Las enfermedades que pueden estar relacionadas con la hipertensión en este rango de edad son:
+
+-Enfermedad cardiovascular
+
+-Enfermedad renal crónica
+
+-Enfermedad de las arterias coronarias
+
+-Enfermedad cerebrovascular
+
+-Enfermedad arterial periférica
+
+-Diabetes
+
+-Enfermedad pulmonar obstructiva crónica (EPOC)
+
+-Apnea del sueño.</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>Las enfermedades que pueden estar relacionadas con la hipertensión en este rango de edad son: 
+
+-Enfermedad cardiovascular
+
+-Enfermedad renal crónica
+
+-Enfermedad de las arterias coronarias
+
+-Enfermedad cerebrovascular
+
+-Enfermedad arterial periférica
+
+-EPOC
+
+-Apnea del sueño
+
+-Demencia.</value>
+  </data>
 </root>
