@@ -51,6 +51,7 @@
             // 
             richTextBox1.Location = new Point(23, 73);
             richTextBox1.Name = "richTextBox1";
+            richTextBox1.ReadOnly = true;
             richTextBox1.Size = new Size(193, 418);
             richTextBox1.TabIndex = 15;
             richTextBox1.Text = resources.GetString("richTextBox1.Text");
@@ -59,6 +60,7 @@
             // 
             richTextBox2.Location = new Point(252, 73);
             richTextBox2.Name = "richTextBox2";
+            richTextBox2.ReadOnly = true;
             richTextBox2.Size = new Size(193, 418);
             richTextBox2.TabIndex = 16;
             richTextBox2.Text = resources.GetString("richTextBox2.Text");
@@ -67,6 +69,7 @@
             // 
             richTextBox3.Location = new Point(480, 73);
             richTextBox3.Name = "richTextBox3";
+            richTextBox3.ReadOnly = true;
             richTextBox3.Size = new Size(193, 418);
             richTextBox3.TabIndex = 17;
             richTextBox3.Text = resources.GetString("richTextBox3.Text");
@@ -75,6 +78,7 @@
             // 
             richTextBox4.Location = new Point(714, 73);
             richTextBox4.Name = "richTextBox4";
+            richTextBox4.ReadOnly = true;
             richTextBox4.Size = new Size(193, 418);
             richTextBox4.TabIndex = 18;
             richTextBox4.Text = resources.GetString("richTextBox4.Text");
