@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace DESAFIO_1
 {
+    //Esta clase define un objeto Paciente con cuatro atributos: nombre, genero, tipoSangre y presionArterial.
+    //La clase también tiene un constructor que acepta los valores para estos atributos y métodos getter y setter para cada atributo.
+
+    //Cada instancia de la clase Paciente representa un paciente con su información personal y médica.
+    //esta clase es utilizada en la estructura de datos Árbol para almacenar la información de los pacientes.
     internal class Paciente
     {
         private string nombre;

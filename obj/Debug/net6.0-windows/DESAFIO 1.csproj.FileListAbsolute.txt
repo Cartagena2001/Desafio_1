@@ -68,3 +68,5 @@ C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\DESAFIO 1.genrunt
 C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\ref\DESAFIO 1.dll
 C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\DESAFIO_1.pacienteRiesgo.resources
 C:\Users\cesar\Source\Repos\Desafio_1\obj\Debug\net6.0-windows\DESAFIO_1.porcentaje.resources
+E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO_1.pacienteRiesgo.resources
+E:\salva\Escritorio\UDB MATERIAS\1 CICLO 1-2023\Programación con Estructuras de Datos\UNIDAD 3\DESAFIO 1\obj\Debug\net6.0-windows\DESAFIO_1.porcentaje.resources
